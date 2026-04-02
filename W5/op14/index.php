@@ -1,6 +1,4 @@
 <?php
-
-
 $titel = "Test";
 
 $titel = trim($titel);
