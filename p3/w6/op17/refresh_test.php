@@ -4,12 +4,12 @@ $pdo = new PDO("mysql:host=localhost;dbname=testdb", "root", "");
 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $titel = $_POST["titel"];
+$titel = $_POST["titel"];
 
-    $stmt = $pdo->prepare("INSERT INTO posts (titel) VALUES (?)");
-    $stmt->execute([$titel]);
+$stmt = $pdo->prepare("INSERT INTO posts (titel) VALUES (?)");
+$stmt->execute([$titel]);
 
-    echo "Opgeslagen!";
+echo "Opgeslagen!";
 }
 ?>
 

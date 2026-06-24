@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Flash Message</title>
+<title>Flash Message</title>
 </head>
 <body>
 
@@ -13,10 +13,9 @@ session_start();
 
 <?php
 if (isset($_SESSION['flash'])) {
-    echo "<p>" . $_SESSION['flash'] . "</p>";
+echo "<p>" . $_SESSION['flash'] . "</p>";
     
-    // meteen verwijderen
-    unset($_SESSION['flash']);
+unset($_SESSION['flash']);
 }
 ?>
 

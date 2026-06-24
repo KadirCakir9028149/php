@@ -7,7 +7,7 @@ $_SESSION['kleur'] = 'lila';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Session Check</title>
+<title>Session Check</title>
 </head>
 <body>
 
